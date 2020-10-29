@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".Screen2">
+
+    <TextView
+        android:id="@+id/empName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:textSize="22dp"
+        android:text="Employee Name"/>
+
+    <TextView
+        android:id="@+id/payRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:textSize="22dp"
+        android:text="Rate of Work" />
+
+    <TextView
+        android:id="@+id/hoursWorked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:textSize="22dp"
+        android:text="Hours of worked" />
+
+    <TextView
+        android:id="@+id/performanceLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="48dp"
+        android:textSize="22dp"
+        android:text="Performance level" />
+
+    <TextView
+        android:id="@+id/grossSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="22dp"
+        android:text="Gross Salary" />
+
+    <TextView
+        android:id="@+id/incomeTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="22dp"
+        android:text="Income Tax" />
+
+    <TextView
+        android:id="@+id/netIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="22dp"
+        android:text="Net Income" />
+</LinearLayout>
